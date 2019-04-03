@@ -1,22 +1,23 @@
 package Calculator.operations;
 
-public class Addition extends Operation {
+public class Multiplication extends Operation {
 
 	@Override
 	public String getName() {
 		// TODO Auto-generated method stub
-		return "addition";
+		return "multiplication";
 	}
 
 	@Override
 	public String getOperator() {
 		// TODO Auto-generated method stub
-		return "+";
+		return "*";
 	}
 
 	@Override
 	public double calc() {
-		return a + b;
+		// TODO Auto-generated method stub
+		return a * b;
 	}
 
 }
