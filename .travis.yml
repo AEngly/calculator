@@ -1,5 +1,0 @@
-language: java
-
-script:
-- cd calculator-maven
-- mvn clean test
