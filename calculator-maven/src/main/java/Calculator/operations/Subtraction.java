@@ -17,7 +17,7 @@ public class Subtraction extends Operation {
 	@Override
 	public double calc() {
 		// TODO Auto-generated method stub
-		return a - b;
+		return a + b;
 	}
 
 }
